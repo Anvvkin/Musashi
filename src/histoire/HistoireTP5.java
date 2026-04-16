@@ -3,6 +3,7 @@ package histoire;
 import personnages.Commerçant;
 import personnages.Ronin;
 import personnages.Yakuza;
+import personnages.Samurai;
 
 public class HistoireTP5 {
 
@@ -13,15 +14,18 @@ public class HistoireTP5 {
 		Commerçant kumi   = new Commerçant("Kumi", 10);
 		Yakuza yaku       = new Yakuza("Yaku Le Noir", "whisky", 30, "Warsong");
 		Ronin roro        = new Ronin("Roro", "shochu", 60);
+		Samurai akimoto = new Samurai("Miyamoto", "Akimoto", "saké", 80);
 
 		marco.faireConnaissanceAvec(roro);
 		marco.faireConnaissanceAvec(yaku);
 		marco.faireConnaissanceAvec(chonin);
 		marco.faireConnaissanceAvec(kumi);
+		marco.faireConnaissanceAvec(akimoto);
 
 		marco.listerConnaissances();
 		roro.listerConnaissances();
 		yaku.listerConnaissances();
+		akimoto.listerConnaissances();
 	}
 
 }
