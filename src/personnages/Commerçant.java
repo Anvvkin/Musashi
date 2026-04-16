@@ -1,6 +1,5 @@
 package personnages;
 
-import personnages.Humain;
 
 public class Commerçant extends Humain {
 
